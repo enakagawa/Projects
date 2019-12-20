@@ -1,0 +1,15 @@
+Goal: Complete hangman implementation using a given word bank and up to 6 guesses.
+
+Sub Goals: 
+ - Lookup the definition of the word after the game has completed
+
+Focus: 
+ - File parsing efficiently
+ - Definition lookup using outside APIs
+
+To Do:
+ - Read input words from file (words_alpha.txt)
+ - Store in data structure, pick out random word
+     - (with possibly fixed length)
+ - Monitor word to be guessed and guesses in some way
+ - Store runs into a .txt file to look at later
